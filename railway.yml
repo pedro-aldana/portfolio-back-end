@@ -1,0 +1,7 @@
+name: back-end
+routes:
+  - src: /static
+    dest: /static
+  - src: /
+    command: python manage.py runserver 0.0.0.0:$PORT
+    
