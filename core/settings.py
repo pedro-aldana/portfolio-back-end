@@ -84,6 +84,11 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    "https://portfolio-back-end-production-afe8.up.railway.app",
+    # Agrega aquí otros orígenes permitidos si es necesario
+]
+
 ROOT_URLCONF = "core.urls"
 
 TEMPLATES = [
